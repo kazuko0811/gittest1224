@@ -12,6 +12,7 @@ body {
 	background: tomato;
 }
 
+/* ---------- ヘッダーエリア ---------- */
 .header {
 	background: lime;
 	height: 300px;
@@ -21,6 +22,13 @@ h1 {
 	color: yellowgreen;
 	padding: 5%;
 }
+
+/* ---------- ナビエリア ---------- */
+
+.main-navi li {
+	display: inline-block;
+}
+
 
 .contant-p {
 	color: blue;
