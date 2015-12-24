@@ -12,6 +12,14 @@ body {
 	background: tomato;
 }
 
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
 /* ---------- ヘッダーエリア ---------- */
 .header {
 	background: lime;
@@ -50,6 +58,7 @@ ul {
 	margin: 5%;
 	border: 5px solid #000;
 	border-radius: 5%;
+	float:left;
 }
 
 
@@ -62,6 +71,7 @@ ul {
 	border-radius: 5%;
 	margin: 5%;
 	padding: 5%;
+	float: right;
 }
 
 
