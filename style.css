@@ -12,10 +12,14 @@ body {
 	background: tomato;
 }
 
+.header {
+	background: lime;
+	height: 300px;
+}
+
 h1 {
 	color: yellowgreen;
 	padding: 5%;
-	border-bottom: 3px solid #fff;
 }
 
 .contant-p {
@@ -33,7 +37,14 @@ h1 {
 	line-height: 5em;
 	margin: 10% auto;
 	color: #ccc;
-	border: 3px solid #fff;
-	padding: 5px;
+	border: 3px solid #000;
+		padding: 5px;
 	margin: 5%;
+	background: #fff;
+}
+
+.content-text {
+	margin: 5%;
+	font-size: 1.2em;
+	color: #808080;
 }
