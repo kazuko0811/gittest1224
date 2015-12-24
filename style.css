@@ -43,6 +43,7 @@ ul {
 /* ---------- メインコンテンツエリア ---------- */
 
 .main-contant {
+	background: yellowgreen;
 	color: #fff;
 	font-size: 1.5em;
 	padding: 5%;
@@ -50,6 +51,21 @@ ul {
 	border: 5px solid #000;
 	border-radius: 5%;
 }
+
+
+/* ---------- サイドバーエリア ---------- */
+
+.sidebar {
+	background: blue;
+	color: #fff;
+	border: 5px solid #000;
+	border-radius: 5%;
+	margin: 5%;
+	padding: 5%;
+}
+
+
+/* ---------- フッターエリア ---------- */
 
 .footer:after {
 	content:"フッターエリア";
