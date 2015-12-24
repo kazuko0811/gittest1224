@@ -7,7 +7,7 @@ body {
 
 .container {
 	width: 80%;
-	height: 960px;
+	/*height: 960px;*/
 	margin: 0 auto;
 	background: tomato;
 }
@@ -35,17 +35,20 @@ ul {
 	display: inline-block;
 	width: 20%;
 	font-size: medium;
-	line-height: 1.5em;
+	line-height: 3em;
 	text-align: center;
+	background: aqua;
 }
 
+/* ---------- メインコンテンツエリア ---------- */
 
-.contant-p {
-	color: blue;
-	font-size: 2em;
-	padding: 0;
+.main-contant {
+	color: #fff;
+	font-size: 1.5em;
+	padding: 5%;
 	margin: 5%;
-	border: 2px solid yellow;
+	border: 5px solid #000;
+	border-radius: 5%;
 }
 
 .footer:after {
@@ -60,10 +63,4 @@ ul {
 		padding: 5px;
 	margin: 5%;
 	background: #fff;
-}
-
-.content-text {
-	margin: 5%;
-	font-size: 1.2em;
-	color: #808080;
 }
