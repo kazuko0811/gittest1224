@@ -50,30 +50,40 @@ ul {
 
 /* ---------- メインコンテンツエリア ---------- */
 
+.wrap {
+	padding: 2%;
+}
+
+.main {
+	float:left;
+	width: 70%;
+}
+
 .main-contant {
 	background: yellowgreen;
 	color: #fff;
 	font-size: 1.5em;
-	padding: 5%;
-	margin-left: 5%;
 	border: 5px solid #000;
 	border-radius: 5%;
-	width: 40%;
-	float:left;
+	padding: 5%;
+	margin-right: 5%;
 }
 
 
 /* ---------- サイドバーエリア ---------- */
 
 .sidebar {
+	float: right;
+	width: 30%;
+}
+
+.side-content {
 	background: blue;
 	color: #fff;
+	font-size: 1.5em;
 	border: 5px solid #000;
-	border-radius: 5%;
-	margin-right: 15%;
+	/*border-radius: 5%;*/
 	padding: 5%;
-	width: 20%;
-	float: right;
 }
 
 
