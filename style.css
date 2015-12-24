@@ -3,7 +3,6 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: red;
 }
 
 .container {
@@ -26,8 +25,18 @@ h1 {
 
 /* ---------- ナビエリア ---------- */
 
+ul {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+
 .main-navi li {
 	display: inline-block;
+	width: 20%;
+	font-size: medium;
+	line-height: 1.5em;
+	text-align: center;
 }
 
 
@@ -44,6 +53,7 @@ h1 {
 	display: block;
 	font-size: 5em;
 	line-height: 5em;
+	text-align: center;
 	margin: 10% auto;
 	color: #ccc;
 	border: 3px solid #000;
